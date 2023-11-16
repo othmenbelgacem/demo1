@@ -1,7 +1,5 @@
 on:
-    push:
-      branches:
-        - master
+    push: 
   jobs:
     docker:
       runs-on: ubuntu-latest
